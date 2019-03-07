@@ -1,0 +1,252 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/****************
+*****************
+HEADER***********
+*****************
+****************/
+header{
+	background-image: url("Banner.jpg");
+	height: 800px;
+	width: 1290px;
+	margin: auto;
+	display: cover;
+	background-position: top center;
+	background-repeat: none;
+	position: relative;
+}
+
+header .logo img{
+	position: absolute;
+	margin-top: 60px;
+	display: block;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+/****************
+*****************
+CALL AREA********
+*****************
+****************/
+.call{
+	color: #b4adad;
+	border: 1px solid black;
+	height: 330px;
+	width:  335px;
+	border-radius: 3px;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 820px;
+	transform: translate(-50%,-70%);
+	background-color: #fff;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+form{
+	margin-right: 100px;
+}
+ .call form input[placeholder="Enter your zip code"]{
+ 	position: absolute;
+	width:250px;
+	height: 40px;
+	font-family: serif;
+	border-radius: 3px;
+	outline: none;
+	border:1px solid gray;
+	padding: 10px;
+	box-sizing: border-box;
+	top: 30px;
+	left: 45px;
+}
+.call pre{
+	text-align:center; 
+	margin: 10px 15px 10px 15px;
+}
+.call button{
+	width: 180px;
+	height: 45px;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: #227dd3;
+	border: none;
+	font-size: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+/****************
+*****************
+BOX AREA*****
+*****************
+****************/
+.box{
+	font-family: sans-serif;
+	line-height: 1.6em;
+	font-size: 14px;
+	width:1290px;
+	height: 350px;
+	margin: auto;
+}
+
+.box .sec-1{
+	
+	margin-top: 170px;
+	margin-left: 200px;
+	width: 400px;
+	height: 200px;
+	float: left;	
+	position: relative;
+}
+.sec-1 .cot{
+	position: absolute;
+	padding-left: 120px;
+	top: 0px;
+}
+.box .sec-2{
+	padding-left: 0px;
+	margin-top: 170px;
+	margin-right: 200px;
+	width: 400px;
+	height: 200px;
+	float: right;
+	position: relative;
+}
+.box .sec-2:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.sec-2 .cot{
+	position: absolute;
+	margin-left: 140px;
+	top: 0px;
+}
+/****************
+*****************
+MAIN*************
+*****************
+****************/
+.main{
+	color: #fff;
+	line-height: 1.6em;
+	font-family: sans-serif;
+	height: 1350px;
+	width: 1290px;
+	margin: auto;
+	background: linear-gradient(to top , #44a36f, #5fc18b); 
+	position: relative;
+}
+.main .row-1{
+	margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.main .row-1 img{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.main .row-2{
+    margin-top: 300px;
+}
+.main .row-2 img{
+	margin-left: 209px;
+	position: absolute;
+}
+.main .row-2 .right{
+     width: 550px;
+     margin-right: 200px;
+	float: right;
+}
+.main button{
+	color: #fff;
+	font-size: 18px;
+	margin-top: 40px;
+	width: 200px;
+	height: 50px;
+	background: none;
+	border: 2px solid #fff;
+	border-radius: 7px;
+	cursor: pointer;
+}
+.main button:hover{
+	border: none;
+	background: #1f6d42;
+}
+h1{
+	margin-bottom: 20px;
+}
+/****************
+*****************
+CONTACT *********
+*****************
+****************/
+.contact{
+	margin:auto;
+	width: 1289px;
+	height: 635px;
+}
+.map{
+	width: 100%;
+	height: 635px;
+}
+.contact .c-form{
+	background: rgba(255,255,255,0.7);
+	position: relative;
+	width: 430px;
+	height: 430px;
+	color: black;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,0.7);;
+	margin-top: -470px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+/****************
+*****************
+CONTACT FORM*****
+*****************
+****************/
+form{
+	margin-top:100px; 
+	margin-left: 70px;
+}
+.contact input[placeholder="Name"], input[type="email"]{
+	width: 275px;
+	height: 30px;
+}
+ .contact input[placeholder="Name"], input[type="email"], textarea[placeholder="Massage"]{
+	margin-bottom: 15px;
+	padding: 5px;
+	border-radius: 4px;
+}
+textarea[placeholder="Massage"]
+{   overflow: none;
+	width: 275px;
+	height: 80px;
+}
+.contact .c-form img{
+	opacity: .7;
+	margin-left: 50%;
+	transform: translate(-40%);
+}
+.contact .c-form img:hover{
+	opacity: 2;
+	cursor: pointer;
+}
+/****************
+*****************
+FOOTER***********
+*****************
+****************/
+footer{
+	margin: auto;
+	width: 1290px;
+	height: 45px;
+	color: white;
+	background-color: #43a06d;
+	text-align: center;
+	line-height: 45px;
+}
